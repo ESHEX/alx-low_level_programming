@@ -1,17 +1,30 @@
-#include <unistd.h>
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
+
+/* betty style doc for function main goes there */
 /**
  * main - Entry point
- * Description: prints lowercase alphabets in reverse
- * Return: Always 0 (success)
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int a;
+	int i;
+	char l;
 
-	for (a = 'z'; a >= 'a'; a--)
+	i = 48;
+	while  (i < 58)
 	{
-		putchar(a);
+		putchar(i);
+		i++;
+	}
+
+	l = 'a';
+	while (l <= 'f')
+	{
+		putchar(l);
+		l++;
 	}
 	putchar('\n');
 	return (0);
