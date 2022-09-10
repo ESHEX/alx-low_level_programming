@@ -4,9 +4,9 @@
 
 /* betty style doc for function main goes there */
 /**
- *  main - Entry point
+ * main - Entry point
  *
- *  Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -29,10 +29,6 @@ int main(void)
 				{
 					l = ++j + 1; k = i;
 				}
-				else if (j == 56)
-				{
-					j++; k = i + 1; l = 48;
-				}
 				else if (j == 57)
 				{
 					j = 48; l = 49; k = ++i;
@@ -48,5 +44,5 @@ int main(void)
 			}
 		}
 	}
-	return (0);
+return (0);
 }

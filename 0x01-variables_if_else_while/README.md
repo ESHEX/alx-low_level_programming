@@ -1,1 +1,1 @@
-Write a program that prints all possible combinations of two
+Write a program that prints all possible combinations
